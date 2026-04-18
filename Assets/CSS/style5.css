@@ -321,10 +321,10 @@ h2 {
     justify-content: var(--std_Position_Centre);
     border-left: var(--std_Solid) var(--std_Colour_Black) var(--std_One_px);
 }
-/* 
+
 .spanned {
-    grid-column: var(--std_Minus_One);
-} */
+    grid-column: 1 / -1;
+}
 
 .images {
     width: var(--std_Percent_100);
