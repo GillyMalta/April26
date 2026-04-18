@@ -259,7 +259,7 @@ h2 {
     border-top: var(--std_Solid) var(--std_Colour_Black) var(--std_One_px);
 }
 
-#tort {
+#claims {
     height: var(--std_Auto);
     font-size: var(--std_One_Rem);
     border-top: var(--std_Solid) var(--std_Colour_Black) var(--std_One_px);
@@ -267,7 +267,7 @@ h2 {
     text-align: var(--std_Position_Centre);
 }
 
-#tort h2 {
+#claims h2 {
     text-align: var(--std_Position_Left);
 }
 
