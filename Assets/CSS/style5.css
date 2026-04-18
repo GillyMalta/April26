@@ -290,12 +290,12 @@ h2 {
     align-items: center;
     justify-items: center;
     margin-bottom: 0.5rem;
-    /* transition: var(--std_TransitionEaseInOut) var(--std_Time_Onesec); */
+    transition: var(--std_TransitionEaseInOut) var(--std_Time_Onesec);
 }
 
 .section1 {
-    /* width: var(--std_Percent_97);
-    height: var(--std_Percent_97); */
+    width: var(--std_Percent_97);
+    height: var(--std_Percent_97);
     object-fit: var(--std_Display_Cover);
     overflow: var(--std_Display_Hidden);
     display: var(--std_Display_Flex);
@@ -311,8 +311,8 @@ h2 {
 }
 
 .section2 {
-    /* width: var(--std_Percent_97);
-    height: var(--std_Percent_97); */
+    width: var(--std_Percent_97);
+    height: var(--std_Percent_97);
     object-fit: var(--std_Display_Cover);
     overflow: var(--std_Display_Hidden);
     display: var(--std_Display_Flex);
@@ -321,10 +321,10 @@ h2 {
     justify-content: var(--std_Position_Centre);
     border-left: var(--std_Solid) var(--std_Colour_Black) var(--std_One_px);
 }
-
+/* 
 .spanned {
     grid-column: var(--std_Minus_One);
-}
+} */
 
 .images {
     width: var(--std_Percent_100);
