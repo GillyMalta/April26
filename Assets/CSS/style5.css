@@ -229,7 +229,7 @@
 }
 
 body {
-    background-color: yellow;
+    background-color: var(--std_Colour_Lightgrey);
     margin: var(--std_Half_Rem);
 }
 
