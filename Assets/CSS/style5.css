@@ -280,17 +280,17 @@ h2 {
 }
 
 .container {
-    margin: var(--std_Zero);
-    display: var(--std_Display_Grid);
-    grid-template-columns: var(--std_Percent_50) var(--std_Auto);
+    margin: 0;
+    display: grid;
+    grid-template-columns: 50% auto;
     width: 97dvw;
-    height: var(--std_100_DVH);
-    border-bottom: var(--std_Solid) var(--std_Colour_Black) var(--std_One_px);
-    border-top: var(--std_Solid) var(--std_Colour_Black) var(--std_One_px);
-    align-items: var(--std_Position_Centre);
-    justify-items: var(--std_Position_Centre);
-    margin-bottom: var(--std_Half_Rem);
-    transition: var(--std_TransitionEaseInOut) var(--std_Time_Onesec);
+    height: 100dvh;
+    border-bottom: solid black 1px;
+    border-top: solid black 1px ;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 0.5rem;
+    /* transition: var(--std_TransitionEaseInOut) var(--std_Time_Onesec); */
 }
 
 .section1 {
