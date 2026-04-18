@@ -1,0 +1,22 @@
+.swap-img {
+  width: 200px;
+  height: 200px;
+  background-image: url("Assets/images/random1.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.swap-img:hover {
+  background-image: none;
+}
+
+.swap-img:hover::after {
+  content: "Your text here";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  font-weight: bold;
+}

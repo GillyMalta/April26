@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Khand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Khand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root {
+    --std_Font_Khand:               'Khand';
+    --std_Font_Bangers:             'Bangers';
+    --std_Font_Chewy:               'Chewy';
+    --std_Font_Luckiest_Guy:        'Luckiest Guy';
+    --std_Font_Poppins:             'Poppins';
+    --std_Font_Lato:                'Lato';
+    --std_Font_Roboto:              'Roboto';
+    --std_Font_Montserrat:          'Montserrat';  
+    --std_Font_Oswald:              'Oswald';
+    --std_Font_Raleway:             'Raleway';
+    --std_Font_Smooch:              'Smooch Sans';
+    --std_Font_Arimo:               'Arimo';
+    --std_Font_Nunito:              'Nunito';
+    --std_Font_Ubuntu:              'Ubuntu';
+
+    --std_Colour_00ff61:            #00ff61;
+    --std_Colour_2E5F7C:            #2E5F7C;
+    --std_Colour_5C00FF:            #5c00ff;
+    --std_Colour_649CBE:            #649CBE;
+    --std_Colour_81817e:            #81817e;
+
+    --std_Colour_Beige:             beige;
+    --std_Colour_Black:             black;
+    --std_Colour_Blueviolet:        blueviolet;
+    --std_Colour_Lightgrey:         lightgrey;
+    --std_Colour_Royalblue:         royalblue;
+    --std_Colour_White:             white;
+
+    --std_Colour_C2E2EE:            #C2E2EE;
+
+    --std_Colour_DC0000:            #DC0000;
+    
+    --std_Colour_EEE:               #EEE;
+    --std_Colour_E5EDFF:            #E5EDFF;
+    --std_Colour_EEF1F5:            #EEF1F5;
+
+    --std_Colour_F2F4F8:            #F2F4F8;
+    --std_Colour_F2F8FC:            #F2F8FC;
+    --std_Colour_F4F1F8:            #F4F1F8;
+    --std_Colour_F5F7FA:            #F5F7FA;
+    --std_Colour_F7F7F7:            #F7F7F7;
+    --std_Colour_F9F9F9:            #F9F9F9;
+    --std_Colour_F0F8FF:            #F0F8FF;
+
+    --std_Colour_FAF9F6:            #FAF9F6;
+    --std_Colour_FAFAFA:            #FAFAFA;
+    --std_Colour_FAF3E0:            #FAF3E0;
+    --std_Colour_FFFDF8:            #FFFDF8;
+    --std_Colour_FDF6EC:            #FDF6EC;
+    --std_Colour_Ivory :            #FFFFF0;
+    --std_Colour_Pearl :            #FCFCF7;
+    --std_Colour_Parchment:         #FBF5DF;
+    --std_Colour_FDFDFD:            #FDFDFD;
+
+    --std_Colour_Transparent:       transparent;
+    --std_Colour_Inherit:           inherit;   
+    
+    --std_Zero:                     0;
+    --std_Hundred:                  100;
+    --std_ZeroTwo:                  0.2;
+    --std_One:                      1.0;
+    --std_Two:                      2.0;
+    --std_One_px:                   1px;
+    --std_Two_px:                   2px;
+    --std_Three_px:                 3px;
+    --std_Four_px:                  4px;
+    --std_Five_px:                  5px;
+    --std_Nine_px:                  9px;
+    --std_Ten_px:                   10px;
+    --std_Twenty_px:                20px;
+    --std_Twentyseven_px:           27px;
+    --std_FortyEight_px:            48px;
+    --std_Quarter_Rem:              0.25rem;
+    --std_Half_Rem:                 0.5rem;
+    --std_One_Rem:                  1.0rem;
+    --std_OneTwo_Rem:               1.2rem;
+    --std_OneThree_Rem:             1.3rem;
+    --std_OneHalf_Rem:              1.5rem;
+    --std_Two_Rem:                  2.0rem;
+    --std_TwoHalf_Rem:              2.5rem;
+    --std_Three_Rem:                3.0rem;
+    --std_ThreeHalf_Rem:            3.5rem;
+    --std_Four_Rem:                 4.0rem;
+    --std_FourHalf_Rem:             4.5rem;
+    --std_Five_Rem:                 5.0rem;
+    --std_Six_Rem:                  6.0rem;
+    --std_Eight_Rem:                8.0rem;
+    --std_NineHalf_Rem:             9.5rem;
+    --std_Ten_Rem:                  10rem;
+    --std_Fifteen_Rem:              15rem;
+    --std_Nineteen_Rem:             19rem;
+    --std_Twenty_Rem:               20rem;
+    --std_Thirty_Rem:               30rem;
+    --std_ThirtyEight_Rem:          38rem;
+    --std_Forty_Rem:                40rem;
+    --std_FortyOne_Rem:             41rem;
+    --std_FortyThree_Rem:           43rem;
+    --std_Sixtyfive_Rem:            65rem;
+
+    --std_Time_ZeroTwo:             0.2s;
+    --std_Time_Halfsec:             0.5s;
+    --std_Time_Onesec:              1.0s;
+    --std_Time_Twosec:              2.0s;
+
+    --std_Number_One:               1.0;
+    --std_Minus_One:                1 / -1;
+
+    --std_VH_5:                     5vh;
+    --std_VH_10:                    10vh;
+    --std_VH_15:                    15vh;
+    --std_VH_20:                    20vh;
+    --std_VH_30:                    30vh;
+    --std_VH_40:                    40vh;
+    --std_VH_45:                    45vh;
+    --std_VH_46:                    46vh;
+    --std_VH_50:                    50vh;
+    --std_VH_60:                    60vh;
+    --std_VH_70:                    70vh;
+    --std_VH_80:                    80vh;
+    --std_VH_90:                    90vh;
+    --std_VH_100:                   100vh;
+
+    --std_Percent_5:                5%;
+    --std_Percent_10:               10%;
+    --std_Percent_20:               20%;
+    --std_Percent_25:               25%;
+    --std_Percent_30:               30%;
+    --std_Percent_50:               50%;
+    --std_Percent_54:               54%;
+    --std_Percent_70:               70%;
+    --std_Percent_75:               75%;
+    --std_Percent_90:               90%;
+    --std_Percent_100:              100%;
+    --std_Percent_150:              150%;
+    --std_Percent_200:              200%;
+
+    --std_Position_Centre:          center;
+    --std_Position_Flex_End:        flex-end;
+    --std_Position_Right:           right;
+    --std_Position_Left:            left;
+    --std_Position_Spaceevenly:     space-evenly;
+    --std_Position_Spacearound:     space-around;
+    --std_Position_FitContent:      fit-content;
+    --std_Position_Row:             row;
+    --std_Position_Column:          column;
+    --std_Position_Fixed:           fixed;
+    --std_Position_Sticky:          sticky;
+    --std_Position_Absolute:        absolute;
+
+    --std_Transition_Ease:          ease;
+    --std_Transition_EaseOut:       ease-out;
+    --std_TransitionEaseInOut:      ease-in-out;
+
+    --std_Transform_ScaleZeroFive:  scale(0.5);
+    --std_Transform_Scale_One002:   scale(1.002);
+    --std_Transform_ScaleOne0Five:  scale(1.05);
+    --std_Transform_ScaleOneOne:    scale(1.1);
+
+    --std_Font_Weight_100:          100;
+    --std_Font_Weight_200:          200;
+    --std_Font_Weight_300:          300;
+    --std_Font_Weight_400:          400;
+    --std_Font_Weight_500:          500;
+    --std_Font_Weight_600:          600;
+    --std_Font_Weight_700:          700;
+    --std_Font_Bold:                bold;
+    --std_Font_Bolder:              bolder;
+    --std_Font_Uppercase:           uppercase;
+    --std_Font_Italic:              italic;
+    --std_Font_Underline:           underline;
+
+    --std_Solid:                    solid;
+    --std_Smooth:                   smooth;
+    --std_Auto:                     auto;
+    --std_None:                     none;
+
+    --std_Display_Grid:             grid;
+    --std_Display_Flex:             flex;
+    --std_Display_Cover:            cover;
+    --std_Display_NoRepeat:         no-repeat;
+    --std_Display_Inlineblock:      inline-block;
+    --std_Display_Hidden:           hidden;
+    --std_Display_Block:            block;
+    --std_Display_Visible:          visible;
+    --std_Display_ZoomIn:           zoom-in;
+    --std_Display_Relative:         relative;
+
+    --std_LeftSideMenu:             4rem;
+
+    --std_Pointer:                  pointer;
+}
+
+.dropdown {
+    padding-top: var(--std_Half_Rem);
+    position: var(--std_Display_Relative);
+    display: var(--std_Display_Inlineblock) ;
+}
+
+.dropbtn {
+    background: var(--std_Colour_Inherit);
+    color: var(--std_Colour_DC0000);
+    border: var(--std_None);
+    cursor: var(--std_Pointer);
+    border-radius: var(--std_Half_Rem);
+    font-size: var(--std_One_Rem);
+    align-self: var(--std_Position_Centre);
+}
+
+.dropdown-content {
+    position: var(--std_Position_Absolute);
+    background: var(--std_Colour_Lightgrey);
+    width: var(--std_Position_FitContent);
+    box-shadow: var(--std_Zero) var(--std_Ten_px) var(--std_Twenty_px) var(--std_Colour_Black);
+    border-radius: var(--std_Half_Rem);
+    overflow: var(--std_Display_Hidden);
+    text-align: var(--std_Position_Centre);
+    opacity: var(--std_Zero);
+    visibility: var(--std_Display_Hidden);
+    transition: var(--std_TransitionEaseInOut) var(--std_Time_Onesec);
+}
+
+.dropdown-content a {
+    display: var(--std_Display_Block);
+    padding: var(--std_Ten_px);
+    text-decoration: var(--std_None);
+    color: var(--std_Colour_Black);
+}
+
+.dropdown-content a:hover {
+    background-color: var(--std_Colour_Inherit);
+    text-transform: var(--std_Font_Uppercase);
+    transition: var(--std_TransitionEaseInOut) var(--std_Time_Onesec);
+}
+
+.dropdown:hover .dropdown-content {
+    opacity: var(--std_One);
+    visibility: var(--std_Display_Visible);
+}

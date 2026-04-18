@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing containers and images</title>
+    <link rel="stylesheet" href="Assets/CSS/style5.css">
+    <link rel="stylesheet" href="Assets/CSS/menu.css">
+    <link rel="stylesheet" href="Assets/CSS/nav.css">
+    <link rel="stylesheet" href="Assets/CSS/form.css">
+</head>
+<body>
+
+<div id="navigation"></div>  
+
+<div id="p1"></div>
+  
+<div id="p2"></div>
+
+<div id="p3"></div>
+
+<div id="p4"></div>
+
+<div id="p5"></div>
+
+<div id="p6"></div>
+
+<section id="kuntatti">
+
+    <div class="leftSide">
+
+        <h2>Get in contact with me</h2>
+
+        <p>Items marked <span class="required"> * </span> are required</p>
+        
+        <form id="contact-form" autocomplete="off">
+
+                <label for="name">Name and Surname :  <span class="required"> * </span> </label>
+                <input id="name" type="text" name="name" placeholder="Your name and surname" required autocomplete="off">
+
+                <label for="email">Email Address :  <span class="required"> * </span> </label>
+                <input id="email" type="email" name="email" placeholder="Your email address" required autocomplete="off">
+
+                <label for="phone">Phone Number :  <span class="required"> * </span> </label>
+                <input id="phone" type="tel" name="phone" placeholder="Your phone number" required autocomplete="off">
+
+                <label for="help">How can I help you? </label>
+                <select id="help" name="help">
+                    <option value="">-- Choose a category --</option>
+                    <option value="Collaboration">Collaboration</option>
+                    <option value="More Information">More Information</option>
+                    <option value="Content Removal">Content Removal</option>
+                    <option value="callback">Callback</option>
+                </select>
+
+                <label for="message">Would you like to add a comment?</label>
+                <textarea id="message" name="message"></textarea>
+
+                <label></label>
+                <button class="buttons" id="sendit" type="submit">Send It!</button>
+
+        </form>
+
+    </div>
+
+    <div class="rightSide">
+
+        <div class="kazzo">
+
+            <p>Send me an email</p>
+
+                <br>
+
+                    <a href="mailto:gilbert.sammut@79297110.com" target="_blank" class="icons">
+                        <img src="Assets/Images/email.png">
+                    </a>
+        
+        </div>
+
+        <div class="kazzo">
+
+            <p>Send me a Whatsapp Message</p>
+
+                <br>
+
+                    <a href="https://wa.me/0035679297110" target="_blank" class="icons">
+                        <img src="Assets/Images/wapp.png">
+                    </a>
+
+        </div>
+
+        <div class="kazzo">
+
+            <p>Visit my Facebook profile</p>
+
+                <br>
+
+                    <a href="https://www.facebook.com/gilbert.sammut/" target="_blank" class="icons">
+                        <img src="Assets/Images/facebook.png" alt="facebook-new"/>
+                    </a>
+
+        </div>
+
+        <div class="kazzo">
+
+            <p>Visit my LinkedIn profile</p>
+
+                <br>
+
+                    <a href="https://linkedin.com/in/gilbertsammut" target="_blank" class="icons">
+                        <img src="Assets/Images/linkedin.png" alt="linkedin">
+                    </a>
+
+        </div>   
+                    
+        <div class="kazzo">
+
+            <p>Visit my Instagram profile</p>
+
+                <br>
+
+                    <a href="https://instagram.com/gilly_malta_web_dev" target="_blank" class="icons">
+                        <img src="Assets/Images/instagram.png" alt="instagram-new"/>
+                    </a>
+
+        </div>
+
+        <div class="kazzo">
+
+            <p>Visit my Github repositories</p>
+
+                <br>
+
+                    <a href="https://github.com/GillyMalta" target="_blank" class="icons">
+                        <img src="Assets/Images/github.png" alt="github"/>
+                    </a>
+            
+        </div>
+
+        <div class="kazzo">
+
+            <p>Visit my Spotify profile</p>
+
+                <br>
+
+                    <a href="https://open.spotify.com/user/gilly_malta" target="_blank" class="icons">
+                        <img src="Assets/Images/spotify.png" alt="github"/>
+                    </a>
+            
+        </div>
+
+        <div class="kazzo">
+
+            <p>Visit Malta, my country</p>
+
+                <br>
+
+                    <a href="https://maps.app.goo.gl/RShp4CLG6Cuxtv8C8" target="_blank" class="icons">
+                        <img src="Assets/Images/location.png" alt="github"/>
+                    </a>
+            
+        </div>
+
+        <div class="kazzo">
+
+            <p>Coming soon!</p>
+
+                <br>
+
+                    <a href="#" target="_blank" class="icons">
+                        <img src="Assets/Images/youtube.png" alt="github"/>
+                    </a>
+            
+        </div>
+
+    </div>
+
+</section>
+
+<div id="tort"></div>
+
+<section id="copyright">
+    &copy; Gilbert Sammut | 2026
+</section>
+
+<script src="Scripts/nav.js"></script>
+<script src="Scripts/p1.js"></script>
+<script src="Scripts/p2.js"></script>
+<script src="Scripts/p3.js"></script>
+<script src="Scripts/p4.js"></script>
+<script src="Scripts/p5.js"></script>
+<script src="Scripts/p6.js"></script>
+<script src="Scripts/disclaim.js"></script>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"> </script>
+<script src="Scripts/email.js"></script>
+
+</body>
+</html>
