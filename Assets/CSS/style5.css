@@ -294,8 +294,8 @@ h2 {
 }
 
 .section1 {
-    width: var(--std_Percent_97);
-    height: var(--std_Percent_97);
+    /* width: var(--std_Percent_97);
+    height: var(--std_Percent_97); */
     object-fit: var(--std_Display_Cover);
     overflow: var(--std_Display_Hidden);
     display: var(--std_Display_Flex);
@@ -311,8 +311,8 @@ h2 {
 }
 
 .section2 {
-    width: var(--std_Percent_97);
-    height: var(--std_Percent_97);
+    /* width: var(--std_Percent_97);
+    height: var(--std_Percent_97); */
     object-fit: var(--std_Display_Cover);
     overflow: var(--std_Display_Hidden);
     display: var(--std_Display_Flex);
