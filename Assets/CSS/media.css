@@ -3,6 +3,14 @@
         display: none;
     }
 
+    #kuntatti {
+        display: flex;
+    }
+
+    .leftSide {
+        width: 97%;
+    }
+
     .rightSide {
         display: none;
     }
@@ -11,6 +19,14 @@
 @media (min-width: 600px) and (max-width: 1023px) {
     #claims {
         display: none;
+    }
+
+    #kuntatti {
+        display: flex;
+    }
+
+    .leftSide {
+        width: 97%;
     }
 
     .rightSide {
