@@ -233,7 +233,6 @@
     opacity: var(--std_Zero);
     visibility: var(--std_Display_Hidden);
     transition: var(--std_TransitionEaseInOut) var(--std_Time_Onesec);
-    font-size: var(--std_OneHalf_Rem);
 }
 
 .dropdown-content a {
@@ -241,6 +240,7 @@
     padding: var(--std_Ten_px);
     text-decoration: var(--std_None);
     color: var(--std_Colour_Black);
+    font-size: var(--std_OneHalf_Rem);
 }
 
 .dropdown-content a:hover {
