@@ -179,6 +179,7 @@
     --std_Position_Sticky:          sticky;
     --std_Position_Relative:        relative;
     --std_Position_Absolute:        absolute;
+    --std_Position_End:             end;
 
     --std_Transition_Ease:          ease;
     --std_Transition_EaseOut:       ease-out;
@@ -225,16 +226,15 @@
 }
 
 #kuntatti {
-    display: grid;
-    grid-template-columns: 50% auto;
-    height: 100dvh;
-        padding: var(--std_225_DVW);
-
+    display: var(--std_Display_Grid);
+    grid-template-columns: var(--std_Percent_50) var(--std_Auto);
+    height: var(--std_100_DVH);
+    padding: var(--std_225_DVW);
 }
 
 form {
     display: var(--std_Display_Grid);
-    grid-template-columns: 30% auto;
+    grid-template-columns: var(--std_Percent_30) var(--std_Auto);
 }
 
 input,
@@ -242,29 +242,29 @@ select,
 textarea,
 button {
     background-color: var(--std_Colour_Lightgrey);
-    border: none;
-    border-bottom: solid black 1px;
+    border: var(--std_None);
+    border-bottom: var(--std_Solid) var(--std_Colour_Black) var(--std_One_px);
     margin: var(--std_Half_Rem);
 
 }
 
 input::placeholder {
     color: var(--std_Colour_Black);
-    font-style: italic;
-    color: #DC0000;
+    font-style: var(--std_Font_Italic);
+    color: var(--std_Colour_DC0000);
 }
 
 label {
-    text-align: end;
+    text-align: var(--std_Position_End);
     align-self: anchor-center;
-    font-weight: bold;
-    padding: 2rem;
-    font-size: 1.5rem;
+    font-weight: var(--std_Font_Bold);
+    padding: var(--std_Two_Rem);
+    font-size: var(--std_OneHalf_Rem);
 }
 
 textarea {
-    height: 20dvh;
-    border: solid black 1px;
+    height: var(--std_20_DVH);
+    border:  var(--std_Solid) var(--std_Colour_Black) var(--std_One_px);
 }
 
 button {
@@ -272,22 +272,22 @@ button {
 }
 
 .rightSide {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    height: 97%;
+    display: var(--std_Display_Grid);
+    grid-template-columns: repeat(3, 1fr);
+    height: var(--std_Percent_97);
 }
 
 .kazzo {
-    align-content: center;
-    text-align: center;    
+    align-content: var(--std_Position_Centre);
+    text-align: var(--std_Position_Centre);    
 }
 
 .kazzo p {
-    font-size: 1.5rem;
-    color: #DC0000;
-    font-weight: bold;
+    font-size: var(--std_OneHalf_Rem);
+    color: var(--std_Colour_DC0000);
+    font-weight: var(--std_Font_Bold);
 }
 
 .kazzo:hover {
-    cursor: pointer;
+    cursor: var(--std_Pointer);
 }
