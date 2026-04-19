@@ -14,6 +14,12 @@
     .rightSide {
         display: none;
     }
+
+    #mobile {
+        display: flex;
+        flex-direction: row;
+        height: 5dvh;
+    }
 }
 
 @media (min-width: 600px) and (max-width: 1023px) {
@@ -31,5 +37,11 @@
 
     .rightSide {
         display: none;
+    }
+
+    #mobile {
+        display: flex;
+        flex-direction: row;
+        height: 5dvh;
     }
 }
