@@ -55,7 +55,7 @@
     }
 
     nav {
-    flex-direction: flex-start;
-    left: 0;
+        justify-content: flex-start;
+        left: 0;
     }
 }
