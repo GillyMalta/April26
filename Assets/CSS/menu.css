@@ -233,6 +233,7 @@
     opacity: var(--std_Zero);
     visibility: var(--std_Display_Hidden);
     transition: var(--std_TransitionEaseInOut) var(--std_Time_Onesec);
+    font-size: var(--std_OneHalf_Rem);
 }
 
 .dropdown-content a {
