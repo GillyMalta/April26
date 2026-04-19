@@ -31,6 +31,6 @@
 
     .rightSide {
         width: 97%;
-        height: auto;
+        height: 100dvh;
     }
 }
