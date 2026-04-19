@@ -322,7 +322,7 @@ h2 {
     display: var(--std_Display_Flex);
     flex-direction: var(--std_Position_Column);
     align-items: var(--std_Position_Centre);
-    justify-content: var(--std_Position_Centre);
+    justify-content: flex-start;
     border-left: var(--std_Solid) var(--std_Colour_Black) var(--std_One_px);
 }
 
