@@ -238,7 +238,7 @@ html {
 }
 
 h2 {
-    font-size: var(--std_One_Rem);
+    font-size: var(--std_OneHalf_Rem);
     margin: var(--std_Zero);
 }
 
