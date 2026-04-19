@@ -227,7 +227,7 @@
 #kuntatti {
     display: grid;
     grid-template-columns: 50% auto;
-    height: 10dvh;
+    height: 100dvh;
         padding: var(--std_225_DVW);
 
 }
