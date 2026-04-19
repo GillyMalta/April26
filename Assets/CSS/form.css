@@ -303,11 +303,11 @@ button:hover {
 .rightSide {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    height: 120dvh;
 }
 
 .kazzo {
     /* border: solid black 1px; */
-    height: 120dvh;
     align-content: center;
     text-align: center;    
 }
