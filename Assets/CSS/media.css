@@ -8,11 +8,11 @@
     }
 
     .leftSide {
-        display: none;
+        width: 97%;
     }
 
     .rightSide {
-        width: 97%;
+        display: none;
     }
 }
 
@@ -26,11 +26,10 @@
     }
 
     .leftSide {
-        display: none;
+        width: 97%;
     }
 
     .rightSide {
-        width: 97%;
-        height: 100dvh;
+        display: none;
     }
 }
