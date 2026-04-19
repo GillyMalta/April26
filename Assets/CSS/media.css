@@ -17,6 +17,7 @@
     }
 
     .mobile {
+        display: block;
         height: 1dvh;
     }
 }
@@ -40,6 +41,7 @@
     }
 
     .mobile {
+        display: block;
         height: 1dvh;
     }
 }
