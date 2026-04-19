@@ -271,7 +271,7 @@ h2 {
     text-align: var(--std_Position_Left);
 }
 
-#mobile {
+.mobile {
     display: none;
 }
 

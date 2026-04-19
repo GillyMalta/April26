@@ -15,7 +15,7 @@
         display: none;
     }
 
-    #mobile {
+    .mobile {
         display: flex;
         flex-direction: row;
         height: 5dvh;
@@ -39,7 +39,7 @@
         display: none;
     }
 
-    #mobile {
+    .mobile {
         display: flex;
         flex-direction: row;
         height: 5dvh;
