@@ -235,10 +235,6 @@
 form {
     display: var(--std_Display_Grid);
     grid-template-columns: 30% auto;
-    /* width: 100dvw;
-    height: auto; */
-    /* border: solid black 1px; */
-
 }
 
 input,
@@ -262,7 +258,6 @@ label {
     text-align: end;
     align-self: anchor-center;
     font-weight: bold;
-    /* border: solid black 1px; */
     padding: 2rem;
     font-size: 1.5rem;
 }
@@ -272,33 +267,9 @@ textarea {
     border: solid black 1px;
 }
 
-/* select {
-    grid-column: 2;
-} */
-
 button {
-    /* grid-column: 2; */
     transition: ease var(--std_Time_Halfsec);
 }
-/* 
-button:hover {
-    box-shadow: rgba(0, 0, 0, 1) 0px 4px 12px;
-    transform: scale(1.02);
-    text-transform: uppercase;
-    background-color: var(--std_Colour_Black);
-    color: #649CBE;
-} */
-
-/* .rightSide {
-    width: var(--std_Percent_97);
-    height: var(--std_Percent_97);
-    object-fit: var(--std_Display_Cover);
-    overflow: var(--std_Display_Hidden);
-    display: var(--std_Display_Flex);
-    flex-direction: var(--std_Position_Column);
-    align-items: var(--std_Position_Centre);
-    justify-content: var(--std_Position_Centre);
-    border-left: var(--std_Solid) var(--std_Colour_Black) var(--std_One_px);} */
 
 .rightSide {
     display: grid;
@@ -307,7 +278,6 @@ button:hover {
 }
 
 .kazzo {
-    /* border: solid black 1px; */
     align-content: center;
     text-align: center;    
 }

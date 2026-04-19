@@ -116,6 +116,7 @@
 
     --std_225_DVW:                  0.225dvw;
     --std_8_DVW:                    8dvw;
+    --std_97_DVW:                   97dvw;
 
     --std_2_DVH:                    2dvh;
     --std_3_DVH:                    3dvh;
@@ -126,6 +127,7 @@
     --std_30_DVH:                   30dvh;
     --std_40_DVH:                   40dvh;
     --std_50_DVH:                   50dvh;
+    --std_97_DVH:                   97dvh;
     --std_100_DVH:                  100dvh;
 
     --std_Time_ZeroTwo:             0.2s;
@@ -168,11 +170,13 @@
 
     --std_Position_Centre:          center;
     --std_Position_Flex_End:        flex-end;
+    --std_Position_Flex_Start:      flex-start;
     --std_Position_Right:           right;
     --std_Position_Left:            left;
     --std_Position_Spaceevenly:     space-evenly;
     --std_Position_Spacearound:     space-around;
     --std_Position_FitContent:      fit-content;
+    --std_Position_MaxContent:      max-content;
     --std_Position_Row:             row;
     --std_Position_Column:          column;
     --std_Position_Fixed:           fixed;
@@ -242,15 +246,6 @@ h2 {
     margin: var(--std_Zero);
 }
 
-/* #socials {
-    height: var(--std_10_DVH);
-    border-top: var(--std_Solid) var(--std_Colour_Black) var(--std_One_px);
-    display: var(--std_Display_Flex);
-    flex-direction: var(--std_Position_Row);
-    align-items: var(--std_Position_Centre);
-    justify-content: var(--std_Position_Spaceevenly);
-} */
-
 #copyright {
     height: var(--std_2_DVH);
     font-size: var(--std_Half_Rem);
@@ -272,7 +267,7 @@ h2 {
 }
 
 .mobile {
-    display: none;
+    display: var(--std_None);
 }
 
 .description {
@@ -284,16 +279,16 @@ h2 {
 }
 
 .container {
-    margin: 0;
-    display: grid;
-    grid-template-columns: 50% auto;
-    width: 97dvw;
-    height: 100dvh;
-    border-bottom: solid black 1px;
-    border-top: solid black 1px ;
-    align-items: center;
-    justify-items: center;
-    margin-bottom: 0.5rem;
+    margin: var(--std_Zero);
+    display: var(--std_Display_Grid);
+    grid-template-columns: var(--std_Percent_50) var(--std_Auto);
+    width: var(--std_97_DVW);
+    height: var(--std_100_DVH);
+    border-bottom: var(--std_Solid) var(--std_Colour_Black) var(--std_One_px);
+    border-top:  var(--std_Solid) var(--std_Colour_Black) var(--std_One_px);
+    align-items: var(--std_Position_Centre);
+    justify-items: var(--std_Position_Centre);
+    margin-bottom: var(--std_Half_Rem);
     transition: var(--std_TransitionEaseInOut) var(--std_Time_Onesec);
 }
 
@@ -315,14 +310,14 @@ h2 {
 }
 
 .section2 {
-    width: 97%;
-    height: 97%;
+    width: var(--std_Percent_97);
+    height: var(--std_Percent_97);
     object-fit: var(--std_Display_Cover);
     overflow: var(--std_Display_Hidden);
     display: var(--std_Display_Flex);
     flex-direction: var(--std_Position_Column);
     align-items: var(--std_Position_Centre);
-    justify-content: flex-start;
+    justify-content: var(--std_Position_Flex_Start);
     border-left: var(--std_Solid) var(--std_Colour_Black) var(--std_One_px);
 }
 
@@ -350,8 +345,8 @@ h2 {
     transition: var(--std_TransitionEaseInOut) var(--std_Time_Onesec);
     font-size: var(--std_3_DVH);
     text-transform: var(--std_Font_Uppercase);
-    width: max-content;
-    justify-self: center;
+    width: var(--std_Position_MaxContent);
+    justify-self: var(--std_Position_Centre);
 }
 
 .buttons:hover {
