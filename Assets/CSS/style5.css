@@ -311,7 +311,7 @@ h2 {
 }
 
 .section2 {
-    width: var(--std_Percent_97);
+    width: 100dvw;
     height: 100dvh;
     object-fit: var(--std_Display_Cover);
     overflow: var(--std_Display_Hidden);
