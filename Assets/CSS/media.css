@@ -4,11 +4,11 @@
     }
 
     #kuntatti {
-        display: flex;
+        display: none;
     }
 
     .leftSide {
-        width: 97%;
+        display: none;
     }
 
     .rightSide {
@@ -22,11 +22,11 @@
     }
 
     #kuntatti {
-        display: flex;
+        display: none;
     }
 
     .leftSide {
-        width: 97%;
+        display: none;
     }
 
     .rightSide {
