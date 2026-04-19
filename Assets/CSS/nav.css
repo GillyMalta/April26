@@ -224,11 +224,11 @@ nav {
  display: var(--std_Display_Flex);
  flex-direction: var(--std_Position_Row);
  align-items: var(--std_Position_Centre);
- justify-content: var(--std_Position_Flex_End);
+ justify-content: flex-start;
  background-color: var(--std_Colour_Transparent);
  position: var(--std_Position_Fixed);
  top: var(--std_Zero);
- right: var(--std_Zero);
+ left: var(--std_Zero);
  margin: var(--std_Half_Rem) var(--std_One_Rem) var(--std_Half_Rem) var(--std_Half_Rem);
  z-index: var(--std_Hundred);
 } 
