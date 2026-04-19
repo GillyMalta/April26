@@ -24,6 +24,11 @@
     .hidden {
         display: none;
     }
+
+    nav {
+        flex-direction: flex-start;
+        left: 0;
+    }
 }
 
 @media (min-width: 600px) and (max-width: 1023px) {
@@ -47,5 +52,10 @@
     .mobile {
         display: block;
         height: 1dvh;
+    }
+
+    nav {
+    flex-direction: flex-start;
+    left: 0;
     }
 }
