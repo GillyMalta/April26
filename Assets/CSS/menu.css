@@ -218,7 +218,7 @@
     border: var(--std_None);
     cursor: var(--std_Pointer);
     border-radius: var(--std_Half_Rem);
-    font-size: var(--std_One_Rem);
+    font-size: var(--std_Two_Rem);
     align-self: var(--std_Position_Centre);
 }
 
