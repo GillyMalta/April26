@@ -312,7 +312,7 @@ h2 {
 
 .section2 {
     width: 97%;
-    height: 100dvh;
+    height: 97%;
     object-fit: var(--std_Display_Cover);
     overflow: var(--std_Display_Hidden);
     display: var(--std_Display_Flex);
