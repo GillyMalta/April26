@@ -5,6 +5,7 @@
 
     #kuntatti {
         display: flex;
+        height: 5dvh;
     }
 
     .leftSide {
@@ -16,7 +17,7 @@
     }
 
     .mobile {
-        height: 5dvh;
+        height: 1dvh;
     }
 }
 
@@ -27,6 +28,7 @@
 
     #kuntatti {
         display: flex;
+        height: 5dvh;
     }
 
     .leftSide {
@@ -38,6 +40,6 @@
     }
 
     .mobile {
-        height: 5dvh;
+        height: 1dvh;
     }
 }
