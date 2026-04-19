@@ -273,7 +273,7 @@ button {
 
 .rightSide {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     height: 97%;
 }
 
@@ -286,4 +286,8 @@ button {
     font-size: 1.5rem;
     color: #DC0000;
     font-weight: bold;
+}
+
+.kazzo:hover {
+    cursor: pointer;
 }
